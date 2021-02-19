@@ -1,0 +1,54 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+form {
+    margin: 1em;
+}
+
+.interface{
+    display:flex;
+}
+
+.container{
+    position:relative;
+    border: 4px solid black;
+    margin-top: 50px;
+    height:600px;
+    width:600px;
+}
+
+.info{
+    margin-left: 10px;
+    padding-left: 10px;
+    border: 4px solid black;
+    margin-top: 50px;
+    height:600px;
+    width:200px;
+}
+
+.rectangle{
+    position:absolute;
+    background-color:green;
+}
+
+.square{
+    position:absolute;
+
+    background-color: red;
+}
+
+.circle{
+    position:absolute;
+
+    background-color: purple;
+}
+
+.triangle{ 
+    position:absolute;
+ 
+    width: 0px;
+   
+
+}
